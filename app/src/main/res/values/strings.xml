@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Unsplash_Assigment_11</string>
-    <string name="unsplash">Unsplash</string>
-    <string name="beautiful">Beautiful, free photos.</string>
-    <string name="search">Search photos</string>
     <string name="user_name">User Name</string>
     <string name="user_account_name">User Nickname</string>
     <string name="related_photo">Related photos</string>
