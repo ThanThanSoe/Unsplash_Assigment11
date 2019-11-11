@@ -13,7 +13,7 @@ import io.reactivex.Single
 interface PhotoDao {
 
     @Insert(onConflict =  OnConflictStrategy.REPLACE)
-    abstract fun insertPhotos(events: List<PhotoVO>): Single<LongArray>
+    abstract fun insertPhotos(photos: List<PhotoVO>): Single<LongArray>
 
     @Query("SELECT * FROM photo")
     abstract fun getAllPhotos(): LiveData<List<PhotoVO>>
